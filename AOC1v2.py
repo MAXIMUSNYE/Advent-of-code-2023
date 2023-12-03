@@ -1022,9 +1022,6 @@ def crint(car):
         res = False
     return res
 
-#print(crint("3") , crint("r"))
-
-
 def stwt(loped):
     vd = None
     for word in number_words.keys():
@@ -1036,13 +1033,6 @@ def stwt(loped):
             continue
     return [False, None]
         
-
-    
-
-#print(stwt("data"))
-
-#print(stwt("three2jkj"))
-
 lines = data.split("\n")
 alllinenums = []
 for line in lines:
